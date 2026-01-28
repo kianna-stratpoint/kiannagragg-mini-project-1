@@ -14,7 +14,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  ),
   title: "Kianna | Portfolio",
   description: "Kianna Alexandra Gragg | Software Engineer Intern Portfolio",
 };
