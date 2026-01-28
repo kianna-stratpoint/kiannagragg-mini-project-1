@@ -1,0 +1,17 @@
+export const techIconMap: { [key: string]: string } = {
+  python: "/icons/python.png",
+  react: "/icons/react.png",
+  nextjs: "/icons/nextjs.png",
+  postgresql: "/icons/postgresql.png",
+  mysql: "/icons/mysql.png",
+  html5: "/icons/html.png",
+  css3: "/icons/css.png",
+  javascript: "/icons/javascript.png",
+  flutter: "/icons/flutter.png",
+  firebase: "/icons/firebase.png",
+  colab: "/icons/colab.png",
+  c: "/icons/c.png",
+  dart: "/icons/dart.png",
+  nodejs: "/icons/nodejs.png",
+  google: "/icons/googleai.png",
+};
